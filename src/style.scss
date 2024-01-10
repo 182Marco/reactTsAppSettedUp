@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Inclusione del bordo nella dimensione totale */
+  font-family: "Quicksand", sans-serif;
+}
+
+.app {
+  margin: 5% auto 5%;
+  width: 90%;
+  max-height: 90%;
+  max-width: 1100px;
+}
