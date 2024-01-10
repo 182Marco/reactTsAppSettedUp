@@ -1,10 +1,11 @@
 import "./App.css";
-import { FirstComp } from "./components";
+import { FirstComp, SecondComp } from "./components";
 
 function App() {
   return (
     <>
       <FirstComp />
+      <SecondComp />
     </>
   );
 }
