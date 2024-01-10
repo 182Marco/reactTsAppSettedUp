@@ -1,8 +1,4 @@
-# Exercise on Tanckstack Query
-
-Description: The exercise aims to apply the knowledge conveyed in the following YouTube link through code.
-
-Link: [Link to Tutorial/Guide](https://www.youtube.com/watch?v=r8Dg0KVnfMA)
+# Setup of react ts scss app as a playground for further learning exercise
 
 ## Getting Started
 
@@ -16,3 +12,4 @@ npm i
 
 - React
 - Typescript
+- scss
