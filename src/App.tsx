@@ -1,13 +1,19 @@
-import "./App.css";
-import { FirstComp, SecondComp } from "./components";
-import "./styles/globals.scss";
+import { useEffect, useState } from 'react';
+import './styles/globals.scss';
 
 function App() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    setInterval(() => {
+      setCount(pv => pv + 1);
+    }, 1000);
+  }, []);
+
   return (
-    <div className="app">
-      <FirstComp />
-      <SecondComp />
-    </div>
+    <>
+      <p>Conteggio clic: {count}</p>
+    </>
   );
 }
 
